@@ -1,0 +1,240 @@
+                                                                     28248 N. 90th Ln
+
+                                                                     Peoria, AZ 85383
+                                                                  H +1 (602) 881-9265
+                                                               B kevin.geiss@gmail.com
+Kevin  Geiss                                                       # astrophoenix.com
+
+
+
+             Twenty-five years professional experience developing large-scale software projects in
+             various UNIX-style environments.  Solid knowledge of algorithms, complexity, and
+             computer science theory
+
+
+  =============Skills
+
+
+  Languages  Java, Spring, Perl, C++, C, JavaScript, Swift, TCP, TEX, HTML, SQL, Ada, Pascal,
+             Fortran 90, Assembly, Bash or Zsh scripting
+
+     Version Git, Git Submodules, Git-lfs, Git-annex, Mercurial, Subversion, CVS, RCS, Clear
+     Control Case, and SCCS
+
+  IDEs/tools Linux, Apache, Docker, Kubernetes, Cloudstack, IntelliJ, Eclipse, Xcode, Maven, Vim,
+             GNU Make, GNU Screen, Zsh
+
+
+  =============Experience
+
+
+       2020--Senior Software Development Engineer (SDE3), Amazon, Tempe, AZ.
+     Present
+
+   2002--2020Principal Engineer I, Ticketmaster, Scottsdale, AZ.
+             Implemented web and network applications on Apache and Linux. Ported network applica-
+             tions from Windows and VAX to Linux.
+
+
+             -- Containerized Perl and C++ products to run on Kubernetes
+                --Deployed with Helm and Tiller
+
+             -- Created a Gatling Capacity Test suite for the Company-wide NFL initiative
+                --Tuned products from four teams, which form the B2B Secondary Market stack
+                --Adjusted Apache configurations, VIP setup, and system configurations
+                --Increased the existing system's capacity 100-fold, to handle sustained 320 RPS
+
+             -- Mentored teams on technologies, processes, and platforms
+                --Docker, Kubernetes, Linux
+                --Java and Perl
+                --Unit testing and Test-Driven Development
+                --Code reviews
+                --Integrating with other services
+                --Git (feature branches, merging, rebasing, submodules, git-lfs, git-annex)
+
+             -- Created a public-facing webapp to render Tickets on mobile devices
+                --Implemented asynchronous calls in Java 8 to backend services
+                --Used mustache templates for rendering the frontend
+          -- Created a B2B point-of-sale REST API using Java, Spring, CXF on Tomcat
+
+             --Integrated with other services using jaxrs:client proxies
+             --100% unit test coverage of all application code (Java and JavaScript)
+             --Responsible for the platform engineering: Continuous integration
+               - Jenkins build pipeline, Rundeck for deployments
+               - Provisioning and configuration of the virtual servers
+             --Wrote perl scripts to document releases, and to parse log files for debugging
+
+          -- Wrote JavaScript code to generate a public/private keypair and make a Certificate
+             Signing Request, replacing the deprecated "keygen" browser tag
+
+          -- Implemented SSL Certificate Pinning in an iOS app (Swift and Objective-C)
+
+          -- Shepherded multiple products through the PCI certification process
+             --Documented the protections for Sensitive Cardholder Data
+             --Presented the documentation to the PCI Auditors through live interviews
+
+          -- Spearheaded unit testing Swift code
+             --Picked MockFive after evaluating Swift mocking frameworks for unit tests
+
+          -- Refactored a B2B web app (Java, JBoss and Seam) to increase performance
+             --Adopted standard Seam design patterns to speed up the database interaction
+             --Changed runtime complexity from O(n2) throughout the app to O(n) in some
+               cases, O(n logn) in others, by changing data structures
+
+          -- Created a B2B web service for Resale/Secondary Market ticket exchange and trans-
+             fer (ModPerl, Apache)
+             --Designed and implemented an Actions framework to encapsulate business logic
+               into reusable pieces which became the basis for our other ModPerl web services.
+             --Refactored multiple B2C apps into the class hierarchy to maximize code reuse
+               and increase their functionality
+
+          -- Created a B2B service to provide live onsale data to clients (C++)
+             --One server handled hundreds of simultaneous requests
+             --Implemented a priority queue using a heap to ensure data returned to clients at
+               specified intervals
+             --Used the select system call to manage the pool of sockets
+
+          -- Ported a C++ request queueing engine from Windows to Linux which services tens
+             of thousands of simultaneous requests
+
+          -- Modified a Windows-only C++ service and utility framework so it is now cross plat-
+             form, running on both Linux and Windows. TMLib is used in all other Ticketmaster
+             C++ applications.
+
+2013--2018Database Architect, Land of Frankincense Archaeological Project.
+          ualr.edu/anthropology/archaeology/land-of-frankincense
+          Designed and implemented Filemaker database to store all Archaeological data from the dig
+
+
+          --Created over 100 tables with one-to-many and many-to-many relationships between multiple
+            sets of tables.
+          --Collaborated with the UI designer to implement Forms for inputting data in the field,
+            leveraging the table relationships to pre-fill generated data where possible.
+2000--2002Software Engineer, VoiceViewer Technologies, Inc., and Gordon Minns & Asso-
+
+          ciates, Scottsdale, AZ.
+          The VoiceViewer is a cell phone with integrated microdisplay; resolution of 800x600 pixels
+          with 24-bit color
+
+
+          --Implemented Linux device driver, console, and Linux kernel frame buffer in C to abstract
+            the microdisplay for application use (e.g., XFree86)
+          --Modified XFree86 for compatibility with the microdisplay
+          --Implemented image processing utilities in C++ to pre-process bitmaps for use on the mi-
+            crodisplay
+
+2000--2001Software Engineer, Sensory Science Corporation, Scottsdale, AZ.
+          The EDGE Media Appliance (convergence entertainment device on a Linux platform)
+
+
+          --Detailed software design and C++ implementation of the media appliance software
+          --Created the software build system of Makefiles which compile the software over a hierarchy
+            of directories
+          --Designed, implemented, and administered the Linux development network, including
+            nightly backups, revision control software (CVS), firewall, NFS File server, NIS (yp), and
+            Domain Name Server (DNS)
+
+1998--2000Senior Staff Analyst, Compuware Corporation, Phoenix, AZ.
+          Under contract to American Express Corporation, International Risk Management Automa-
+          tion
+
+
+          --Member of the Infrastructure Team. Responsible for creating C++ tools for the develop-
+            ment and maintenance of Virtual Analysts (VAs) which automate human analysts' tasks
+            on American Express mainframes.
+          --Implemented utilities in C++ and Perl to secure VA login passwords using strong cryptog-
+            raphy
+          --Designed and implemented a C++ application which monthly changes the passwords of
+            1500 VA IDs on 22 heterogenous mainframe systems. The application replaces a nine-hour
+            manual procedure. Supporting additional mainframe systems requires only linking in new
+            code; existing code needs no recompilation (avatar factory pattern).
+          --Examined and repaired legacy C++ code for Y2K problems
+
+1996--1998Software Engineer, Lockheed Martin Tactical Defense Systems, Goodyear, AZ.
+          Helped develop a large-scale data processing application
+
+
+          --Participated in high-level and detailed software design of the C++ application. Called upon
+            to make critical design decisions
+          --Researched and Prototyped calls to commercial and vendor libraries to discover their best
+            application
+          --Created the software build system of Makefiles which compile the software over a hierarchy
+            of directories
+1995--1996Systems Programmer, Lunar & Planetary Lab, University of Arizona, Tucson, AZ.
+          The NASA Imager for Mars Pathfinder (IMP) project created a CCD stereo imaging device
+          which traveled with the NASA Mars Pathfinder mission to the Martian surface.
+
+
+          --Developed real-time, embedded software in C to control the imager and interface with the
+            lander. The system on the lander was VxWorks on a VME platform.
+          --Created OpenGL application on Silicon Graphics IRIX to display the stereo images in 3D.
+          --Wrote software to collate data from dozens of sensors used in the temperature cycling tests
+
+     1995 Graduate Teaching Assistant, University of Arizona Computer Science Depart-
+          ment, Tucson, AZ.
+          Assisted with CSC432 (Data Structures and Algorithms)
+=============Professional Training
+
+
+           Ticketmaster                       Lockheed Martin
+           --AWS Certified Solution Architect Asso---Perl Training
+            ciate BootCamp                    --C++ Training
+           --Dynamic Leadership Training      --Digital Signal Processing
+           --DevOps Training
+           --Swift/iOS Training
+           --Cucumber BDD Training
+           --Agile Training
+
+
+
+=============Free Software Contributions
+
+
+     2006  ABClock, www.let.rug.nl/#kleiweg/abclock/, Version 1.0d.
+           Added support for X11 application dock withdrawn state
+
+     2005  ProcPS Free, astrophoenix.com/gitlist/free, Version 3.1.9.
+           Ported the "free" command-line memory display utility from Linux's procps to Mac OS X
+
+     2003  LavaPS, www.isi.edu/#johnh/SOFTWARE/LAVAPS/, Version 2.0.
+           Contributed Mac OS X support
+
+ 2002--2004Gentoo Linux PPC on Apple iBook, astrophoenix.com/ppc, Linux 2.6.7.
+           Maintained information and configurations for installing Gentoo Linux on an Apple iBook
+
+
+=============Awards
+
+
+ Nov. 2015 Mark 1 Award, Ticketmaster, Scottsdale, AZ.
+           Nominated by peers as the most valuable contributor to the current iteration.
+
+
+           --"I am nominating Kevin G for his contribution towards Identity Adapter integration in
+            WPS and Ticketing Service which unblocked all the three teams to move forward."
+           --"I would like to nominate Kevin Geiss for the Mark 1 Award for the work he has been doing
+            for the Identity Adapter and always being available to help/debug WPS issues as they arise.
+            Plus he helps everyone on his team get their work done."
+           --"Kevin Geiss gets my nomination for this iteration for his dedication in getting the SalesDeck
+            Application up in Pre-prod. He went above and beyond to help others and took passion in
+            his own work to resolve all the issues that arose in the Pre-prod effort. Thanks Kevin! We
+            would not have gotten this far without your dedication and hard work!"
+           --"I would like to nominate Kevin for the Mark 1 Award. His work over the last few weeks to
+            get the identity adapter integrated with our dependencies has finally paid off! We recognized
+            this would be a major challenge right from the get-go, and Kevin stepped up to solve this
+            problem."
+           --"To get SalesDeck working in Portal, Kevin Geiss took on the tasks of verifying Identity
+            Adapter in all environments and got WPS and Ticketing to work with Identity Adapter.
+            Kevin is a great team member. He leads by example. He is very easy to work with and
+            always ready to help his teammates."
+
+
+=============Education
+
+
+ 1994--1996Master of Science, University of Arizona, Tucson, Arizona,  3.4 .
+           Computer Science
+
+ 1990--1994Bachelor of Science, with Distinction in Computer Science, Missouri State
+          University, Springfield, Missouri,  3.63 .
+           Computer Science & Mathematics Double Major; Physics Minor
