@@ -4,6 +4,8 @@
 /blog/
 /gitlist/cache
 
+static/IMG_1935.JPG
+
 # sveltekit .gitignore
 node_modules
 /build
