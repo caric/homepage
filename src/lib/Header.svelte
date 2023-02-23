@@ -1,7 +1,9 @@
 <style>
     .head {
-        font-size: 2rem;
+        font-size: 1.75rem;
         box-shadow: none;
+
+        background-color: rgba(75, 75, 75, 75%);
     }
 
     img {
@@ -27,7 +29,7 @@
         font-size: 0.7em;
     }
 </style>
-<div class="w-full head px-5 card rounded-none m-0 flex">
+<div class="w-full head px-5 py-1 m-0 flex">
     <div class="grow">
         <a href="/" class="hidden-link">
             <img class="logo align-top" src="/kev.webp" alt="Kevin Geiss"/>

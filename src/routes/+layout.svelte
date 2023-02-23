@@ -1,10 +1,27 @@
 <script>
-	import '../theme.css';
-	import '@skeletonlabs/skeleton/styles/all.css';
-	import '../app.postcss';
-    import Header from "../lib/Header.svelte";
+  import "../app.postcss";
+  import "../theme.css";
+  import Header from "../lib/Header.svelte";
 </script>
-<div class="position-absolute top-0 w-full">
-    <Header/>
+
+<style>
+  .content {
+    max-width: 1200px;
+  }
+
+  .hidden-space {
+    visibility: hidden;
+  }
+</style>
+
+<div class="fixed top-0 w-full">
+  <Header/>
 </div>
-<slot />
+<div class="hidden-space">
+  <Header/>
+</div>
+<div class="content mx-auto flex h-full items-center">
+  <div>
+    <slot/>
+  </div>
+</div>

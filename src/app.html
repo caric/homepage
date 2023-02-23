@@ -1,37 +1,13 @@
-<!DOCTYPE html >
-<html lang="en" class="pre-dark">
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
 		%sveltekit.head%
 	</head>
-	<body data-theme="skeleton">
-		<div style="display: contents" class="h-full overflow-hidden">%sveltekit.body%</div>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
-
-	<style>
-		@media (prefers-color-scheme: dark) {
-			.pre-dark body {
-				background-color: rgb(36 44 70);
-				color: white;
-			}
-		}
-	</style>
-	<script data-cfasync="false">
-		// This script block is ONLY for handling theme (light/dark) changes.
-
-		updateTheme();
-		// the pre-dark class is to prevent flashbangs while js is loading (or if js is disabled)
-		document.documentElement.classList.remove("pre-dark");
-		window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
-
-		function updateTheme() {
-			if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-				document.documentElement.classList.add("dark");
-			} else {
-				document.documentElement.classList.remove("dark");
-			}
-		}
-	</script>
 </html>
