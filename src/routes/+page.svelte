@@ -1,30 +1,24 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare aenean euismod elementum nisi quis eleifend quam. Etiam sit amet nisl purus in. Neque egestas congue quisque egestas diam in arcu cursus. Amet volutpat consequat mauris nunc. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Augue mauris augue neque gravida in fermentum et sollicitudin ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Id faucibus nisl tincidunt eget nullam. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Senectus et netus et malesuada. Consequat interdum varius sit amet mattis. Enim neque volutpat ac tincidunt vitae semper.
-<br><br>
-Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ultricies tristique nulla aliquet enim tortor at auctor urna. Nullam vehicula ipsum a arcu cursus vitae congue. Tortor id aliquet lectus proin nibh. Vestibulum sed arcu non odio. A arcu cursus vitae congue. Convallis a cras semper auctor neque vitae. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Quam nulla porttitor massa id. Nisi scelerisque eu ultrices vitae auctor eu augue. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Est lorem ipsum dolor sit amet consectetur adipiscing.
-<br><br>
-Quis varius quam quisque id diam vel quam elementum pulvinar. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Donec ac odio tempor orci dapibus. Pulvinar etiam non quam lacus suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Porttitor eget dolor morbi non. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Egestas integer eget aliquet nibh praesent tristique magna sit.
-<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare aenean euismod elementum nisi quis eleifend quam. Etiam sit amet nisl purus in. Neque egestas congue quisque egestas diam in arcu cursus. Amet volutpat consequat mauris nunc. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Augue mauris augue neque gravida in fermentum et sollicitudin ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Id faucibus nisl tincidunt eget nullam. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Senectus et netus et malesuada. Consequat interdum varius sit amet mattis. Enim neque volutpat ac tincidunt vitae semper.
-<br><br>
-Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ultricies tristique nulla aliquet enim tortor at auctor urna. Nullam vehicula ipsum a arcu cursus vitae congue. Tortor id aliquet lectus proin nibh. Vestibulum sed arcu non odio. A arcu cursus vitae congue. Convallis a cras semper auctor neque vitae. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Quam nulla porttitor massa id. Nisi scelerisque eu ultrices vitae auctor eu augue. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Est lorem ipsum dolor sit amet consectetur adipiscing.
-<br><br>
-Quis varius quam quisque id diam vel quam elementum pulvinar. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Donec ac odio tempor orci dapibus. Pulvinar etiam non quam lacus suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Porttitor eget dolor morbi non. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Egestas integer eget aliquet nibh praesent tristique magna sit.
-<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare aenean euismod elementum nisi quis eleifend quam. Etiam sit amet nisl purus in. Neque egestas congue quisque egestas diam in arcu cursus. Amet volutpat consequat mauris nunc. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Augue mauris augue neque gravida in fermentum et sollicitudin ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Id faucibus nisl tincidunt eget nullam. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Senectus et netus et malesuada. Consequat interdum varius sit amet mattis. Enim neque volutpat ac tincidunt vitae semper.
-<br><br>
-Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ultricies tristique nulla aliquet enim tortor at auctor urna. Nullam vehicula ipsum a arcu cursus vitae congue. Tortor id aliquet lectus proin nibh. Vestibulum sed arcu non odio. A arcu cursus vitae congue. Convallis a cras semper auctor neque vitae. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Quam nulla porttitor massa id. Nisi scelerisque eu ultrices vitae auctor eu augue. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Est lorem ipsum dolor sit amet consectetur adipiscing.
-<br><br>
-Quis varius quam quisque id diam vel quam elementum pulvinar. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Donec ac odio tempor orci dapibus. Pulvinar etiam non quam lacus suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Porttitor eget dolor morbi non. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Egestas integer eget aliquet nibh praesent tristique magna sit.
-<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare aenean euismod elementum nisi quis eleifend quam. Etiam sit amet nisl purus in. Neque egestas congue quisque egestas diam in arcu cursus. Amet volutpat consequat mauris nunc. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Augue mauris augue neque gravida in fermentum et sollicitudin ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Id faucibus nisl tincidunt eget nullam. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Senectus et netus et malesuada. Consequat interdum varius sit amet mattis. Enim neque volutpat ac tincidunt vitae semper.
-<br><br>
-Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ultricies tristique nulla aliquet enim tortor at auctor urna. Nullam vehicula ipsum a arcu cursus vitae congue. Tortor id aliquet lectus proin nibh. Vestibulum sed arcu non odio. A arcu cursus vitae congue. Convallis a cras semper auctor neque vitae. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Quam nulla porttitor massa id. Nisi scelerisque eu ultrices vitae auctor eu augue. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Est lorem ipsum dolor sit amet consectetur adipiscing.
-<br><br>
-Quis varius quam quisque id diam vel quam elementum pulvinar. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Donec ac odio tempor orci dapibus. Pulvinar etiam non quam lacus suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Porttitor eget dolor morbi non. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Egestas integer eget aliquet nibh praesent tristique magna sit.
-<br><br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare aenean euismod elementum nisi quis eleifend quam. Etiam sit amet nisl purus in. Neque egestas congue quisque egestas diam in arcu cursus. Amet volutpat consequat mauris nunc. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Augue mauris augue neque gravida in fermentum et sollicitudin ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Id faucibus nisl tincidunt eget nullam. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Senectus et netus et malesuada. Consequat interdum varius sit amet mattis. Enim neque volutpat ac tincidunt vitae semper.
-<br><br>
-Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ultricies tristique nulla aliquet enim tortor at auctor urna. Nullam vehicula ipsum a arcu cursus vitae congue. Tortor id aliquet lectus proin nibh. Vestibulum sed arcu non odio. A arcu cursus vitae congue. Convallis a cras semper auctor neque vitae. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Quam nulla porttitor massa id. Nisi scelerisque eu ultrices vitae auctor eu augue. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Est lorem ipsum dolor sit amet consectetur adipiscing.
-<br><br>
-Quis varius quam quisque id diam vel quam elementum pulvinar. Nullam vehicula ipsum a arcu cursus vitae congue mauris. Donec ac odio tempor orci dapibus. Pulvinar etiam non quam lacus suspendisse. Pellentesque habitant morbi tristique senectus et netus et malesuada. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Porttitor eget dolor morbi non. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Egestas integer eget aliquet nibh praesent tristique magna sit.
-<br><br>
+<style>
+    .info-box {
+        background-color: rgba(75, 75, 75, 75%);
+        min-width: 800px;
+        max-width: 90vw;
+    }
+    .info-box > img {
+        max-height: 500px;
+        border-radius: 12px;
+    }
+    .info-box > div {
+        padding: 0.5em;
+    }
+</style>
+<div class="fixed top-0 left-0 h-screen w-full">
+    <div class="container h-screen mx-auto flex justify-center items-center w-full">
+        <div class="info-box flex items-center">
+            <img src="/IMG_1935.JPG"/>
+            <div class="text-center justify-self-stretch">
+                <h1 class="block">Kevin Geiss</h1>
+            </div>
+        </div>
+    </div>
+</div>

@@ -13,6 +13,10 @@ a {
     color: #4679e5;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
 .hidden-link:not(.hoverable:hover) {
     color: inherit !important;
     text-decoration: inherit !important;
