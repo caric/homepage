@@ -1,17 +1,3 @@
-<style>
-    .info-box {
-        background-color: rgba(75, 75, 75, 75%);
-        min-width: 800px;
-        max-width: 90vw;
-    }
-    .info-box > img {
-        max-height: 500px;
-        border-radius: 12px;
-    }
-    .info-box > div {
-        padding: 0.5em;
-    }
-</style>
 <svelte:head>
     <title>Kevin Geiss</title>
     <meta title="description" content="About Kevin Geiss">
