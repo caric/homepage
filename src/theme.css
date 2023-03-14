@@ -9,12 +9,24 @@ body, html {
     body, html { font-family: 'Fira Code VF', monospace; }
 }
 
-a {
-    color: #4679e5;
-}
 
 h1 {
     font-size: 1.5em;
+}
+
+a:link {color: #f0dfaf}
+a:visited {color: #e0cf9f}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #dcdccc;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .hidden-link:not(.hoverable:hover) {
