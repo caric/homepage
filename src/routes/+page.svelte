@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Kevin Geiss</title>
-    <meta title="description" content="About Kevin Geiss">
+    <meta name="description" content="About Kevin Geiss">
 </svelte:head>
 <h1>Educational Background</h1>
 <br>
