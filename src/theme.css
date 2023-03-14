@@ -1,0 +1,38 @@
+body, html {
+    background-color: #3f3f3f;
+    color: white;
+
+    font-family: 'Fira Code', monospace;
+}
+
+@supports (font-variation-settings: normal) {
+    body, html { font-family: 'Fira Code VF', monospace; }
+}
+
+
+h1 {
+    font-size: 1.5em;
+}
+
+a:link, a:visited {
+    color: #cc9393
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #dcdccc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden-link:not(.hoverable:hover) {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
