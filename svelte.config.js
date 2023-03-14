@@ -16,6 +16,12 @@ const config = {
   kit: {
     adapter: adapter(),
   },
+
+  version: {
+    name: (await import('child_process'))
+        .execSync('git rev-parse HEAD')
+        .toString().trim()
+  }
 };
 
 export default config;
