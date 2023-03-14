@@ -49,8 +49,5 @@
     email: kevin at astrophoenix dot com <br>
     <a href="https://pkm.social/@astrophoenix" rel="me">Follow me on Mastodon!</a> <br>
     Phone: <a href="tel:1-623-252-5380">+1 623 252 5380</a> <br>
-    View my <a href="http://astrophoenix.com/resume">resume</a>. <br>
-    Get my GPG and PGP public keys <a href="http://astrophoenix.com/keys.html">here</a>. <br>
-    My <a href="http://www.geekcode.com/">geek code</a>
-    is published <a href="geek.html">here</a>. <br>
+    View my <a href="/resume">resume</a>. <br>
 </p>
