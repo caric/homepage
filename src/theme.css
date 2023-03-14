@@ -14,8 +14,11 @@ h1 {
     font-size: 1.5em;
 }
 
-a:link {color: #cc9393}
-a:visited {color: #cc9393}
+a:link, a:visited {
+    color: #cc9393
+}
+
+
 h1,
 h2,
 h3,
