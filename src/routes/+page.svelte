@@ -24,7 +24,7 @@
     <a href="https://mars.nasa.gov/programmissions/missions/past/pathfinder/" target="_blank" rel="noreferrer">Mars Pathfinder</a>
     project (IMP) in the
     <a href="http://www.lpl.arizona.edu/" target="_blank" rel="noreferrer">Lunar and Planetary Laboratory</a>.
-    Here's a <a href="http://astrophoenix.com/imp.html" target="_blank" rel="noreferrer">picture</a> I took of myself with
+    Here's a <a href="http://astrophoenix.com/imp" target="_blank" rel="noreferrer">picture</a> I took of myself with
     the IMP while it was still in the lab, before its
     one-way journey to Mars. Note: Pathfinder was the one which made it
     to the surface and completed its mission! And later was instrumental in saving both
