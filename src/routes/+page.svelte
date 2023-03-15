@@ -2,6 +2,16 @@
     <title>Kevin Geiss</title>
     <meta name="description" content="About Kevin Geiss">
 </svelte:head>
+<h1>Contact</h1>
+<br>
+<p>
+    email: kevin at astrophoenix dot com <br>
+    <a href="https://pkm.social/@astrophoenix" rel="me">Follow me on Mastodon!</a> <br>
+    Phone: <a href="tel:1-623-252-5380">+1 623 252 5380</a> <br>
+    View my <a href="/resume">resume</a>. <br>
+</p>
+<br>
+<br>
 <h1>Educational Background</h1>
 <br>
 <p>
@@ -26,14 +36,4 @@
     and
     B.S. in <a href="http://math.missouristate.edu" target="_blank" rel="noreferrer">Math</a>
     from <a href="http://www.missouristate.edu" target="_blank" rel="noreferrer">Missouri State University</a>.
-</p>
-<br>
-<br>
-<h1>Contact</h1>
-<br>
-<p>
-    email: kevin at astrophoenix dot com <br>
-    <a href="https://pkm.social/@astrophoenix" rel="me">Follow me on Mastodon!</a> <br>
-    Phone: <a href="tel:1-623-252-5380">+1 623 252 5380</a> <br>
-    View my <a href="/resume">resume</a>. <br>
 </p>
