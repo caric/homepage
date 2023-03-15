@@ -21,7 +21,7 @@
     <a href="http://www.arizona.edu/" target="_blank" rel="noreferrer">University of Arizona</a>. I graduated
     with my M.S. in Computer Science in 1996.
     While at the U of A I worked on the Imager for
-    <a href="https://mars.nasa.gov/programmissions/missions/past/pathfinder/" target="_blank" rel="noreferrer">Mars Pathfinder</a>
+    <a href="https://mars.nasa.gov/mars-exploration/missions/pathfinder/" target="_blank" rel="noreferrer">Mars Pathfinder</a>
     project (IMP) in the
     <a href="http://www.lpl.arizona.edu/" target="_blank" rel="noreferrer">Lunar and Planetary Laboratory</a>.
     Here's a <a href="http://astrophoenix.com/imp" target="_blank" rel="noreferrer">picture</a> I took of myself with
