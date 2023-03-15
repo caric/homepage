@@ -5,7 +5,7 @@
 
 <p>
 The Imager for 
-<a href="http://mars.jpl.nasa.gov/default.html">Mars Pathfinder</a>
+<a href="https://mars.nasa.gov/mars-exploration/missions/pathfinder/">Mars Pathfinder</a>
 (IMP) collected the photons you see here.
 I dithered the image to only 256 shades of gray, down from
 the 4096 the Imager is capable of, so I could convert to gif.
