@@ -3,6 +3,8 @@
   import "../theme.css";
   import Header from "../lib/Header.svelte";
   import { fly } from 'svelte/transition';
+
+  import "$lib/fira_code.css";
 </script>
 
 <style>
