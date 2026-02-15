@@ -14,7 +14,7 @@
     <li><a href="/bible/img_2509.jpg" target="_blank" rel="noreferrer">Births - Cummins family (1890s)</a></li>
     <li><a href="/bible/img_2510.jpg" target="_blank" rel="noreferrer">Births - Cummins family (continued)</a></li>
     <li><a href="/bible/img_2511.jpg" target="_blank" rel="noreferrer">Marriages - Cummins family (incl. Lucile Cummins b. 1907)</a></li>
-    <li><a href="/bible/img_2512.jpg" target="_blank" rel="noreferrer">Promissory note - Chris & Jennie Cummins, London KY (1901)</a></li>
+    <li><a href="/bible/img_2512.jpg" target="_blank" rel="noreferrer">Promissory note - Chas. & Jennie Cummins, London KY (1901)</a></li>
     <li><a href="/bible/img_2513.jpg" target="_blank" rel="noreferrer">Loose papers - "Cummins" note, Excelsior Springs clipping</a></li>
     <li><a href="/bible/img_2514.jpg" target="_blank" rel="noreferrer">Western Union telegram - Norma's birth announcement (May 1944)</a></li>
     <li><a href="/bible/img_2515.jpg" target="_blank" rel="noreferrer">Back cover - embossed leather</a></li>
