@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fx-7500G</title>
+  <meta name="description" content="Casio fx-7500G calculator emulator">
+  <meta name="theme-color" content="#1a1a1a">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      background: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: system-ui, sans-serif;
+      color: #ccc;
+    }
+
+    #calc-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 8px 0 4px;
+      gap: 8px;
+      width: 100%;
+      max-width: 520px;
+    }
+
+    canvas {
+      display: block;
+      /* width set by JS; max-width ensures responsive */
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+      border-radius: 4px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.6);
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    #toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    button {
+      background: #333;
+      color: #ccc;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 5px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    button:hover  { background: #444; }
+    button:active { background: #555; }
+
+    #status {
+      font-size: 11px;
+      color: #666;
+      min-height: 16px;
+    }
+
+    #loading {
+      position: fixed;
+      inset: 0;
+      background: #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: #888;
+      z-index: 99;
+    }
+
+    /* Hide the real file input */
+    #file-input { display: none; }
+  </style>
+</head>
+<body>
+  <div id="loading">Loading…</div>
+
+  <div id="calc-wrap">
+    <canvas id="screen"></canvas>
+
+    <div id="toolbar">
+      <button id="btn-quicksave" title="Save to browser storage now">Save</button>
+      <button id="btn-save">Export state</button>
+      <button id="btn-load">Load state…</button>
+      <button id="btn-reset" title="Reset emulator (RAM preserved)">Reset</button>
+    </div>
+    <div id="status"></div>
+  </div>
+
+  <!-- Hidden file input for load -->
+  <input id="file-input" type="file" accept=".state,.bin">
+
+  <img id="face-img" src="assets/face.png" style="display:none" alt="">
+
+  <script type="module">
+    import { start, stop, resume, saveNow, saveStateFile, loadStateFile, factoryReset } from './ui.js';
+
+    const canvas  = document.getElementById('screen');
+    const faceImg = document.getElementById('face-img');
+    const loading = document.getElementById('loading');
+    const status  = document.getElementById('status');
+
+    function setStatus(msg, ttl = 3000) {
+      status.textContent = msg;
+      if (ttl > 0) setTimeout(() => { if (status.textContent === msg) status.textContent = ''; }, ttl);
+    }
+
+    async function fetchBin(path) {
+      const r = await fetch(path);
+      if (!r.ok) throw new Error(`Failed to load ${path}: ${r.status}`);
+      return new Uint8Array(await r.arrayBuffer());
+    }
+
+    async function main() {
+      try {
+        // Load ROM data and wait for the face image in parallel
+        const [rom0, rom1] = await Promise.all([
+          fetchBin('assets/rom0.bin'),
+          fetchBin('assets/rom1.bin'),
+          new Promise((resolve, reject) => {
+            if (faceImg.complete && faceImg.naturalWidth) return resolve();
+            faceImg.onload  = resolve;
+            faceImg.onerror = () => reject(new Error('face.png failed to load'));
+          }),
+        ]);
+
+        await start(canvas, faceImg, rom0, rom1);
+        loading.style.display = 'none';
+
+        // ── Toolbar ──────────────────────────────────────────────────────────
+        document.getElementById('btn-quicksave').addEventListener('click', async () => {
+          await saveNow();
+          setStatus('Saved to browser.');
+        });
+
+        document.getElementById('btn-save').addEventListener('click', () => {
+          saveStateFile();
+          setStatus('State exported.');
+        });
+
+        document.getElementById('btn-load').addEventListener('click', () => {
+          document.getElementById('file-input').click();
+        });
+
+        document.getElementById('file-input').addEventListener('change', async e => {
+          const file = e.target.files[0];
+          if (!file) return;
+          const ok = await loadStateFile(file);
+          setStatus(ok ? 'State loaded.' : `Load failed — invalid file (${file.size} bytes).`);
+          e.target.value = ''; // allow re-selecting the same file
+        });
+
+        document.getElementById('btn-reset').addEventListener('click', async () => {
+          if (!confirm('Reset the emulator? This will erase all saved state.')) return;
+          await factoryReset();
+          setStatus('Emulator reset.');
+        });
+
+        // Pause loop when tab is hidden; resume when visible
+        document.addEventListener('visibilitychange', () => {
+          if (document.hidden) stop(); else resume();
+        });
+
+      } catch (err) {
+        loading.textContent = `Error: ${err.message}`;
+        console.error(err);
+      }
+    }
+
+    main();
+
+    // Register service worker for offline support
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' });
+    }
+  </script>
+</body>
+</html>
