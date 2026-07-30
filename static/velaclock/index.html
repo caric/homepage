@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VelaClock Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>VelaClock Web</h1>
+    <div class="app-header__spacer"></div>
+    <button class="btn" id="bar-mode-toggle" type="button"></button>
+    <button class="btn" id="current-location-toggle" type="button">📍 Current Location</button>
+    <button class="btn" id="export-btn" type="button">Export</button>
+    <button class="btn" id="import-btn" type="button">Import</button>
+    <input type="file" id="import-input" accept="application/json" hidden>
+    <button class="btn" id="add-city-toggle" type="button">+ Add City</button>
+  </header>
+  <div class="header-status" id="header-status" hidden></div>
+  <main>
+    <div class="panel add-city-panel" id="add-city-panel" hidden>
+      <h2>Add a City</h2>
+      <input class="text-input" id="catalog-search" type="text" placeholder="Search built-in cities…">
+      <div id="catalog-results" class="catalog-results"></div>
+
+      <h2 style="margin-top:1.2rem">Custom Location</h2>
+      <div class="custom-form">
+        <input class="text-input" id="custom-name" type="text" placeholder="Name (e.g. Flagstaff)">
+        <input class="text-input" id="custom-lat" type="number" step="any" placeholder="Latitude">
+        <input class="text-input" id="custom-lon" type="number" step="any" placeholder="Longitude">
+        <select class="text-input" id="custom-tz"></select>
+        <button class="btn" id="custom-add" type="button">Add Location</button>
+      </div>
+    </div>
+
+    <div id="city-list"></div>
+  </main>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

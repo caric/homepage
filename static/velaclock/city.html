@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VelaClock Web — City</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="detail-header">
+    <a class="back" href="index.html">&larr; All cities</a>
+    <button class="btn" id="bar-mode-toggle" type="button" style="float:right"></button>
+    <h1 id="city-name">—</h1>
+    <div class="sub" id="city-sub">—</div>
+  </div>
+  <main>
+    <div class="panel">
+      <div class="current-light" id="current-light">—</div>
+      <div class="daylight-duration" id="daylight-duration">—</div>
+      <div class="daylight-bar daylight-bar--large" id="big-bar"></div>
+      <table class="event-list" id="twilight-list"></table>
+    </div>
+
+    <div class="panel">
+      <h2>Sun &amp; Moon</h2>
+      <table class="event-list" id="sun-moon-list"></table>
+    </div>
+
+    <div class="panel">
+      <h2>Moon</h2>
+      <table class="event-list" id="moon-list"></table>
+    </div>
+
+    <div class="panel">
+      <h2>General Info</h2>
+      <table class="event-list" id="general-list"></table>
+    </div>
+  </main>
+  <script type="module" src="js/citydetail.js"></script>
+</body>
+</html>
