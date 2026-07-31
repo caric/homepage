@@ -1,11 +1,15 @@
+/* Zenburn (~/.vim/colors/zenburn.vim): --bg is its popup-menu background,
+   --panel is the classic Zenburn editor background one step lighter, --text
+   is its default foreground, --text-dim is its line-number color. Daylight-
+   bar colors themselves (js/daylightbar.js) are unchanged. */
 :root {
   color-scheme: dark;
-  --bg: #161a22;
-  --panel: #1f242f;
-  --border: #323a4a;
-  --text: #e7e9ee;
-  --text-dim: #9aa3b2;
-  --accent: #f4c94c;
+  --bg: #2c2e2e;
+  --panel: #3f3f3f;
+  --border: #4f4f4f;
+  --text: #dcdccc;
+  --text-dim: #9fafaf;
+  --accent: #dfaf8f;
 }
 
 * { box-sizing: border-box; }
@@ -59,7 +63,7 @@ header.app-header a {
 }
 
 .btn:hover {
-  border-color: #3a4254;
+  border-color: #6f6f6f;
 }
 
 .btn.small {
