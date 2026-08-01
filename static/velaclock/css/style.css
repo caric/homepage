@@ -12,6 +12,21 @@
   --accent: #dfaf8f;
 }
 
+/* Duplicates the :root defaults above unchanged — some browser dark-mode
+   extensions (e.g. Noir) key their "site already has built-in dark mode,
+   don't touch it" heuristic off the presence of this media query rather
+   than the color-scheme meta tag/property alone. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #2c2e2e;
+    --panel: #3f3f3f;
+    --border: #4f4f4f;
+    --text: #dcdccc;
+    --text-dim: #9fafaf;
+    --accent: #dfaf8f;
+  }
+}
+
 * { box-sizing: border-box; }
 
 body {
