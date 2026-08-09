@@ -12,6 +12,7 @@
     <h1>VelaClock Web</h1>
     <div class="app-header__spacer"></div>
     <button class="btn" id="bar-mode-toggle" type="button"></button>
+    <button class="btn" id="time-travel-toggle" type="button">🕐 Pick a Time</button>
     <button class="btn" id="current-location-toggle" type="button">📍 Current Location</button>
     <button class="btn" id="export-btn" type="button">Export</button>
     <button class="btn" id="import-btn" type="button">Import</button>
@@ -19,7 +20,18 @@
     <button class="btn" id="add-city-toggle" type="button">+ Add City</button>
   </header>
   <div class="header-status" id="header-status" hidden></div>
+  <div class="header-status" id="time-travel-status" hidden></div>
   <main>
+    <div class="panel" id="time-travel-panel" hidden>
+      <h2>Pick a Time</h2>
+      <div class="custom-form">
+        <input class="text-input" id="tt-date" type="date">
+        <input class="text-input" id="tt-time" type="time">
+        <select class="text-input" id="tt-city"></select>
+        <button class="btn" id="tt-go" type="button">Go</button>
+      </div>
+    </div>
+
     <div class="panel add-city-panel" id="add-city-panel" hidden>
       <h2>Add a City</h2>
       <input class="text-input" id="catalog-search" type="text" placeholder="Search built-in cities…">

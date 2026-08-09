@@ -274,7 +274,9 @@ main {
 
 .custom-form input#custom-name,
 .custom-form select#custom-tz,
-.custom-form button#custom-add {
+.custom-form button#custom-add,
+.custom-form select#tt-city,
+.custom-form button#tt-go {
   grid-column: 1 / -1;
 }
 
